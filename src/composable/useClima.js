@@ -17,7 +17,7 @@ export default function useClima() {
         cargando.value = true
 
         try {
-            const url = `http://api.openweathermap.org/geo/1.0/direct?q=${busquedad.ciudad},${busquedad.pais}&limit=1&appid=${key}`
+            const url = `https://api.openweathermap.org/geo/1.0/direct?q=${busquedad.ciudad},${busquedad.pais}&limit=1&appid=${key}`
             const { data } = await axios(url)
             const { lon, lat } = data[0]
 
