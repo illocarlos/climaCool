@@ -41,11 +41,14 @@ body {
   gap: 2rem;
 }
 .formulario label {
+  text-transform: uppercase;
+  text-align: center;
   font-size: 2rem;
   font-weight: 700;
 }
 .formulario input[type="text"], 
 .formulario select {
+  text-align: center;
   padding: 1rem;
   background-color: transparent;
   border: .3rem solid var(--blanco);
